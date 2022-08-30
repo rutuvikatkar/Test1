@@ -1,0 +1,6 @@
+System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.flipkart.com/");
+		
+		driver.quit();
